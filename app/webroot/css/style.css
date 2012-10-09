@@ -1,0 +1,184 @@
+
+
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+#login_dailog{
+    color: white !important;
+}
+.social_bar{
+	float:right !important;
+}
+.hero-unit{
+	height:400px;
+}
+#login_dailog{
+    background-color: #1F1F1F;
+    padding: 15px;
+    position: absolute;
+    right: 61px;
+    top: 39px;
+    z-index: 100000;
+    border-radius: 0 0 18px 18px;
+}
+#login_dailog input{
+	display:block;
+	margin-bottom: 10px;
+}
+.hero-unit .photo_frame{
+	background: #4c4c4c; /* Old browsers */
+	color:#fff;
+	width:65%;
+	float:left;
+	margin-right:8%;
+	padding:2%;
+	height:337px;
+	border-radius:0px 5px 0px 5px;
+}
+.hero-unit .news_pod{
+	background:#808080;
+	color:#fff;
+	width:18%;
+	padding:2%;
+	float:left;
+	height:337px;
+	border-radius:0px 5px 0px 5px;
+}
+.club_players{
+	width:100%;
+}
+#container_photo {
+        width: 100%;
+        position: relative;
+}
+			
+#carousel {
+	margin: 0 auto;
+	height:300px!important;
+	width:79%!important;
+}
+#carousel2{
+	height:225px!important;
+	overflow:hidden!important;
+	width:100%!important;
+}
+#carousel img,#carousel2 img {
+	border: 0;
+	height:300px!important;
+	width:auto!important;
+}
+#ui-carousel-next{right:0px !important;}
+#ui-carousel-next, #ui-carousel-prev {
+	width: 60px;
+	height: 100px;
+	background: url(../img/arrow-left.png) #fff center center no-repeat;
+	display: block;
+	position: absolute;
+	top: 0;
+	z-index: 100;
+}
+
+#ui-carousel-next {
+	right: 0;
+	background-image: url(../img/arrow-right.png);
+}
+
+#ui-carousel-prev {
+	left: 0;
+}
+
+#ui-carousel-next > span, #ui-carousel-prev > span {
+	display: none;
+}
+
+#slider1 li{
+	width: 210px;
+}
+#slider1 li img{	
+	height: 300px;
+	width:183px;
+}
+a.bx-next{
+	float: right;
+}
+a.bx-prev{
+	margin-left: 22px;
+}
+a.bx-prev:visited,a.bx-prev:hover,a.bx-prev,
+a.bx-next:visited,a.bx-next:hover,a.bx-prev{
+	color:#fff;
+}
+.error {
+    background: none repeat scroll 0 0 #FF4444;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.success {
+    background: none repeat scroll 0 0 #5BF770;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.menulist li{
+    background: #7d7e7d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7d7e7d), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 2px 4px 6px #000000;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 102px;
+    color: white;
+}
+.menulist li:hover{
+    background: -moz-linear-gradient(center top , #F0F0F0 0%, #0E0E0E 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f0f0), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f0f0f0 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f0f0f0 0%,#0e0e0e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f0f0f0 0%,#0e0e0e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f0f0f0 0%,#0e0e0e 100%); /* W3C */
+}
+.menulist li a{
+    padding: 11px 24px;
+}
+.menulist li a.cntct{
+    padding: 11px 18px;
+}
+.media li a,
+.team li a{
+    padding: 11px 12px;
+}
+.menulist .isChild{
+	display: none;
+        position: absolute;
+        z-index: 500;
+        color: white;
+}
+.isChild li{
+    display: block;
+    margin-top: 5px;
+}
+.isChild li:hover{
+    background: -moz-linear-gradient(center top , #F0F0F0 0%, #0E0E0E 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0f0f0), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f0f0f0 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f0f0f0 0%,#0e0e0e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f0f0f0 0%,#0e0e0e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f0f0f0 0%,#0e0e0e 100%); /* W3C */
+}
+
+a,a:active,a:hover,a:visited{
+    color: white!important;
+    text-decoration: none;
+}
+#page_content{
+    margin-top: 25px;
+}
